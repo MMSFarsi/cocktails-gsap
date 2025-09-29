@@ -5,6 +5,7 @@ import Hero from "./component/Hero.jsx";
 import Cocktails from "./component/Cocktails.jsx";
 import About from "./component/About.jsx";
 import Art from "./component/Art.jsx";
+import Menu from "./component/Menu.jsx";
 gsap.registerPlugin(ScrollTrigger,SplitText)
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <About/>
       <Art></Art>
       {/* <div className="h-dvh bg-black"></div> */}
+      <Menu/>
     </main>
   )
 }
